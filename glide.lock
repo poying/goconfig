@@ -1,0 +1,32 @@
+hash: 4a39e1d0837d4458627ca2677f94d7fb72c77d420e8ed0387a66711bb02bf4f2
+updated: 2017-10-22T16:00:09.901647723+08:00
+imports:
+- name: github.com/caarlos0/env
+  version: 0cf029d5748c52beb2c9d20c81880cb4bdf8f788
+- name: github.com/go-playground/locales
+  version: e4cbcb5d0652150d40ad0646651076b6bd2be4f6
+  subpackages:
+  - currency
+- name: github.com/go-playground/universal-translator
+  version: 71201497bace774495daed26a3874fd339e0b538
+- name: github.com/go-playground/validator
+  version: a021b2ec9a8a8bb970f3f15bc42617cb520e8a64
+- name: github.com/imdario/mergo
+  version: 7fe0c75c13abdee74b09fcacef5ea1c6bba6a874
+- name: github.com/mcuadros/go-defaults
+  version: ac8540f0fc7e0fb5f1eb9e25c6fd0b8db8f97eed
+- name: github.com/stretchr/testify
+  version: 69483b4bd14f5845b5a1e55bca19e954e827f1d0
+  subpackages:
+  - assert
+- name: gopkg.in/yaml.v2
+  version: cd8b52f8269e0feb286dfeef29f8fe4d5b397e0b
+testImports:
+- name: github.com/davecgh/go-spew
+  version: 6d212800a42e8ab5c146b8ace3490ee17e5225f9
+  subpackages:
+  - spew
+- name: github.com/pmezard/go-difflib
+  version: d8ed2627bdf02c080bf22230dbb337003b7aba2d
+  subpackages:
+  - difflib
